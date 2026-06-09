@@ -1,0 +1,10 @@
+name: context-demo
+'on': push
+jobs:
+  context-demo: null
+  runs-on: ubuntu-latest
+  steps:
+    '-name': null
+    run: |
+      echo "Triggered by ${{ github.actor }}"
+      echo "Repo name ${{ github.repo }}"
