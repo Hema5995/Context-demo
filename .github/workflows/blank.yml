@@ -7,4 +7,4 @@ jobs:
       -name: Use context variable
         run: |
           echo "Triggered by ${{ github.actor }}"
-          echo "Repo name ${{ github.repo }}"
+          echo "Repo name ${{ github.repository }}"
